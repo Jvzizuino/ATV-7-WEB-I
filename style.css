@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+ }
+ .itemMenu{
+   width: 90%;
+   margin: 3% 3% 3% 3% ;
+   align-content: center;
+   justify-content: center;
+ }
+ nav{
+    width: 100%;
+ }
+ 
+ .flex-container{
+    display: flex 100%;
+    flex-direction: row;
+ }
+
+ .main{
+   display: flex 100%;
+   flex-wrap: wrap;
+   border: 2px solid #000;
+   align-content: center;
+   justify-content: center;
+   margin: 3% 3% 3% 3% ;
+   background-color: aliceblue;  
+
+
+}
+ 

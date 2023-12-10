@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="./IMG/LOGO.jpg" width="100" height="80" alt="">
+  </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">MENU</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">COMPRAS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CARRINHO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CADASTRO</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
+            </div>
+        </nav>
+
+  </header>
+
+   <div class="flex-container">
+      <div class="main">
+        
+        <div class="itemMenu">
+          <h1>PÁGINA DE CADASTRO</h1>
+            <br><label for="exampleInputEmail1">Nome :</label>
+            <input type="fname" class="form-control" id="" aria-describedby="" placeholder="Ex: João">  
+          </div>
+
+          <div class="itemMenu">
+            <label for="exampleInputPassword1">Marca do carro:</label>
+            <input type="fname" class="form-control" id="" placeholder="Ex: HILUX">  
+          </div>
+
+          <div class="itemMenu">
+            <label for="exampleInputPassword1">Cor do carro:</label>
+            <input type="fname" class="form-control" id="" placeholder="Ex: Vermelho">  
+          </div>
+          
+          <div class="itemMenu">
+            <label for="inputEstado">Câmbio:</label>
+            <select id="inputEstado" class="form-control">
+              <option selected>Escolha:</option>
+              <option selected>MANUAL</option>
+              <option selected>AUTOMÁTICO</option>
+            </select>
+          </div>
+
+          <div class="itemMenu">
+            <label for="exampleInputPassword1">Data de fabricação:</label>
+            <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Data de fabricação">  
+          </div>
+
+          <div class="itemMenu">
+            <label for="exampleInputPassword1">Valor do carro:</label>
+            <input type="fname" class="form-control" id="" placeholder="R$:">  
+          </div>
+
+          <div class="itemMenu">
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+          <button class="btn btn-primary" type="reset">Limpar formulário</button>
+          </div>
+    </div>
+    
+</body>
+</html>
